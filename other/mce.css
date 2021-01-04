@@ -1,0 +1,450 @@
+.p1-5 .mspfalogo {
+  background-color: black;
+}
+.p6 .mspfalogo {
+  background-color: black;
+  background-image: url("https://orig00.deviantart.net/7fe7/f/2017/280/9/6/sofa_logo_by_mortebouse-dbpves5.png") !important;
+}
+
+.p8-12 .mspfalogo {
+  background-color: #03001B;
+}
+
+.p8-12 div.heart {
+  background-image: none;
+}
+
+/* heart icon (favorited) */
+.p8-12 .fav.lit {
+  background-image: url("https://orig00.deviantart.net/1451/f/2017/359/4/9/zo_heart_1_by_mortebouse-dbxtrhv.png");
+}
+
+/* background */
+.p1 body {
+  background-color: black; /* the outer bg */
+  color: white !important; /* color for text */
+}
+.p2-3 body {
+  background-color: white; /* the outer bg */
+  color: white !important; /* color for text */
+}
+.p4-6 body {
+  background-color: black; /* the outer bg */
+  color: white !important; /* color for text */
+}
+
+.p8-12 body {
+  background-color: #020014; /* the outer bg */
+  color: #79bd9a !important; /* color for text */
+}
+
+/* change link text color */
+.p1-6 a {
+  color: white !important;
+}
+
+.p8-12 a {
+  color: #d1f09e !important;
+}
+
+/* change link text content */
+.p13-14 .footlinks a {
+  visibility: hidden;
+  font-size: 0;
+}
+
+.p13-14 .footlinks a::after {
+  visibility: visible;
+  font-size: 10px;
+}
+
+.p13 #goback::after {
+  content: "are";
+}
+
+.p13 #savegame::after {
+  content: "these";
+}
+
+.p13 #loadgame::after {
+  content: "links";
+}
+
+.p13 #startover::after {
+  content: "different";
+}
+
+.p13 #deletegame::after {
+  content: "yet?";
+}
+
+.p14 #startover::after {
+  content: "tis";
+}
+
+.p14 #goback::after {
+  content: "i,";
+}
+
+.p14 #savegame::after {
+  content: "the";
+}
+
+.p14 #loadgame::after {
+  content: "frenchiest";
+}
+
+.p14 #deletegame::after {
+  content: "fry";
+}
+
+/* command text color */
+/*.p9 div #command {
+  color: #a8dba8;
+}*/
+
+/* change nav color */
+.p1-6 nav {
+  color: white !important;
+}
+
+.p8 nav {
+  color: white !important;
+  background-color: #3b8686 !important;
+}
+
+.p9-12 nav {
+  color: white !important;
+  background-color: #0b486b !important;
+  text-decoration: none;
+}
+
+/* change nav icons */
+.p9-12 div.heart {
+  background-image: url("https://orig00.deviantart.net/cf83/f/2018/160/3/c/tiny_star_by_mortebouse-dcdy1hb.png");
+}
+
+/* the bg around the stuff that gets inserted in the editing boxes */
+.p1-3 div#content {
+  background-color: black;
+}
+.p4-6 div#content {
+  background-color: #393939;
+}
+
+.p8-12 div#content {
+  background-color: none;
+}
+
+/* the inner bg */
+.p1-2 div#main {
+  background-color: black;
+}
+.p3 div#main {
+  background-color: white;
+  background: #ffffff;
+  background: -webkit-linear-gradient(top, #ffffff, #000000);
+  background: -o-linear-gradient(top, #ffffff, #000000);
+  background: -moz-linear-gradient(top, #ffffff, #000000);
+  background: linear-gradient(top, #ffffff, #000000);
+}
+.p4-6 div#main {
+  background-color: #1f1f1f;
+}
+.p8-12 div#main {
+  background-color: #03001B;
+}
+
+ /* the innermost bg */
+.p1-3 div#slide {
+  background-color: black;
+}
+.p4-6 div#slide {
+  background-color: #393939;
+}
+.p8-12 div#slide {
+  background-color: #0e0a2a;
+}
+
+ /* description bg */
+.p1-6 div#info .spoiler.open {
+  background-color: black;
+}
+
+.p8 div#info .spoiler.open {
+  background-color: #03001B;
+}
+
+.p9-12 div#info .spoiler.open {
+  background-color: #0e0a2a;
+}
+
+/* page 15 */
+
+.p15 header .mspfalogo {
+    background-color: transparent;
+}
+
+.p15 footer .mspfalogo {
+    background-color: transparent;
+}
+
+.p15 nav {
+  background-color: #1f1f1f;
+  padding-bottom: 5px;
+}
+
+.p15 nav a {
+  color: #eeeeee !important;
+}
+
+.p15 nav a:hover {
+  color: #ff8f8f !important;
+}
+
+.p15 div.heart {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/c6908e97-b277-4728-97d3-35b780cdb4e1/dcurk8a-772bbf41-8b04-4bd2-bb70-2ac322cad011.png");
+}
+
+.p15 body {
+  color: #eeeeee;
+  background-color: #000000;
+}
+
+.p15 div#main {
+  background-color: #393939;
+}
+
+.p15 div#slide {
+  background-color: #535353;
+}
+
+.p15 div#content {
+  background-color: none;
+}
+
+.p15 a {
+  color: #ff1f1f;
+  transition: color 0.2s ease-out;
+}
+
+.p15 a:hover {
+  color: #ff8f8f;
+}
+
+.p15 div#info .spoiler.open,  .p15 div#info .spoiler.closed {
+  background-color: #1f1f1f;
+}
+
+.p15 .major {
+   color: #ca0101;
+   text-shadow: 0 2px #840000;
+}
+
+.p15 #content div.spoiler {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: left;
+   border: 2px dashed #242424;
+   background: #797979;
+}
+
+.p15 #content div.spoiler input {
+   background-color: #535353;
+   border-color: #242424;
+   color: #eeeeee;
+   font-family: "courier", "monospace";
+   font-weight: bold;
+}
+
+.p15-17 .a-jerk-log-for-jerks {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 33px;
+   padding-right: 33px;
+   text-align: left;
+   border: 2px dashed #242424;
+   background: #bdbdbd;
+}
+
+.p15 #info {
+ font-weight: bold
+}
+
+.p15 #info #infobox input[type="button"], .p15 #info #commentbox input[data-open="Show Comments"] {
+   background-color: #535353;
+   border-color: transparent;
+   color: #eeeeee;
+   padding: 1px;
+}
+
+.p15 #info #infobox input[readonly] {
+   background-color: #393939;
+   color: #da5a5a;
+   border-color: transparent
+}
+
+.p15 #bbtoolbar input[type="button"]{
+ background-color: #909090;
+ border-color: #393939;
+}
+
+.p15 #info #commentbox textarea, .p15 select {
+ background-color: #909090;
+ border-color: #393939;
+ border-width: 2px;
+ color: #eeeeee;
+}
+
+.p15 select {
+ background-color: #535353;
+}
+
+.p15 input.major[type="button"], .p15 input.major[type="submit"], .p15 input.major[type="reset"] {
+   outline: none;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 0;
+   border-color: #535353 #2b2b2b #2b2b2b #535353;
+   background-color: #393939;
+}
+
+.p15 button.edit.major[title="Edit"], .p15 button.fav.major[title="Favorite"], .p15 button.notify.major[title="Notify"], .p15 button.rss.major[title="RSS"] {
+   outline: none;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 0;
+   border-color: #797979 #393939 #393939 #797979;
+   background-color: #535353;
+}
+
+.p15 input.major[type="button"]:enabled:active, .p15 input.major[type="submit"]:enabled:active, .p15 input.major[type="reset"]:enabled:active {
+   border-color: #1f1f1f #393939 #393939 #1f1f1f;
+}
+
+.p15 .um {
+opacity: 0.5;
+transition: opacity 0.1s ease-out;
+}
+
+.p15 .um:hover {
+  opacity: 1;
+}
+
+/* page 16 */
+
+.p16 #command span {
+    visibility:hidden;
+    font-size: 0;
+}
+
+.p16 #command span::after {
+  visibility: visible;
+  font-size: xx-large;
+}
+
+.p16 #command span::after {
+  content: "...Now I'm there";
+}
+
+.p18 a {
+    color: #ff1f1f;
+    transition: color 0.2s ease-out;
+  }
+
+.p18 a:hover {
+    color: #ff8f8f;
+  }
+
+.p18 #slide {
+      background-color: #535353;
+      color: #eeeeee;
+  }
+
+.p18 #main {
+      background-color: #393939
+  }
+
+.p18 .footlinks a {
+    visibility: hidden;
+    font-size: 0;
+  }
+
+.p18 #prevlinks, #gamelinks {
+      padding-top: 5px;
+      padding-bottom: 7px;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
+.p18 .footlinks a::after {
+    visibility: visible;
+    font-size: 10px;
+    padding-left: 15.5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff1f1f;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color:#393939;
+  }
+
+.p18 .footlinks a:hover::after {
+    background-color: #1f1f1f;
+    border-color: #ff8f8f;
+    transition: background 0.2s ease-out;
+  }
+
+.p18 #startover:hover::after {
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/ejc-symbol-a.png");
+  }
+
+.p18 #startover::after {
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/ejc-symbol.png");
+    content: "Start Over"; /*eject symbol, "Restart"?*/
+  }
+
+.p18 #goback:hover::after {
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/rew-symbol-a.png");
+  }
+
+.p18 #goback::after {
+    content: "Rewind"; /*rew symbol*/
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/rew-symbol.png");
+  }
+
+.p18 #savegame:hover::after {
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/pause-symbol-a.png");
+  }
+
+.p18 #savegame::after {
+    content: "Save Position"; /*pause symbol*/
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/pause-symbol.png");
+  }
+
+.p18 #loadgame:hover::after {
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/ffw-symbol-a.png");
+  }
+
+.p18 #loadgame::after {
+    content: "Last Saved Position"; /*"resume"?, "Unpause"? play symbol */
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/ffw-symbol.png");
+  }
+
+.p18 #deletegame:hover::after {
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/stop-symbol-a.png");
+  }
+
+.p18 #deletegame::after {
+    content: "Delete Progress"; /* x symbol */
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/stop-symbol.png");
+  }
+
+
+/* gets rid of borders on p5.js animations */
+iframe {
+  border: 0;
+}

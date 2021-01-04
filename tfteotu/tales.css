@@ -1,0 +1,365 @@
+::selection {
+  background-color: #8c5656;
+  color: #f36868;
+  }
+
+header .mspfalogo {
+  background-image: none;
+  background-color: transparent;
+  border-color: #1f1f1f;
+}
+
+footer .mspfalogo {
+  background-image: none;
+  background-color: transparent;
+  border-color: #1f1f1f;
+}
+
+nav {
+  background-color: #1f1f1f;
+  padding-bottom: 5px;
+}
+
+nav a {
+  color: #eeeeee !important;
+}
+
+nav a:hover {
+  color: #ff8f8f !important;
+}
+
+div.heart {
+  background-image: url("/mortebouse.github.io/mspfa/tfteotu/rec-symbol.png");
+}
+
+body {
+  color: #eeeeee;
+  background-color: #0a0a0a;
+}
+
+div#main {
+  background-color: #393939;
+}
+
+div#slide {
+  background-color: #535353;
+}
+
+div#content {
+  background-color: none;
+}
+
+a {
+  color: #ff1f1f;
+  transition: color 0.2s ease-out;
+}
+
+a:hover {
+  color: #ff8f8f;
+}
+
+div#info .spoiler.open,  div#info .spoiler.closed {
+  background-color: #1f1f1f;
+}
+
+.major {
+  color: #ca0101;
+  text-shadow: 0 2px #840000;
+}
+
+#content div.spoiler {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: #393939;
+  border: 2px dashed #242424;
+  background: #bdbdbd;
+}
+
+#content div.spoiler input {
+  background-color: #535353;
+  border-color: #242424;
+  color: #eeeeee;
+  font-family: "courier", "monospace";
+  font-weight: bold;
+}
+
+.a-jerk-log-for-jerks {
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 33px;
+  padding-right: 33px;
+  text-align: left;
+  color: #393939;
+  border: 2px dashed #242424;
+  background-color: #bdbdbd;
+}
+
+#info {
+  font-weight: bold;
+}
+
+#info #infobox input[type="button"], #info #commentbox input[data-open="Show Comments"] {
+  background-color: #535353;
+  border-color: transparent;
+  color: #eeeeee;
+  padding: 1px;
+}
+
+#info #infobox input[readonly] {
+  background-color: #393939;
+  color: #da5a5a;
+  border-color: transparent;
+}
+
+#bbtoolbar input[type="button"] {
+  background-color: #909090;
+  border-color: #393939;
+}
+
+#info #commentbox textarea, select {
+  background-color: #909090;
+  border-color: #393939;
+  border-width: 2px;
+  color: #eeeeee;
+}
+
+.username {
+  color: #ff1f1f;
+}
+
+select {
+  background-color: #535353;
+}
+
+input.major[type="button"], input.major[type="submit"], input.major[type="reset"] {
+  outline: none;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0;
+  border-color: #535353 #2b2b2b #2b2b2b #535353;
+  background-color: #393939;
+}
+
+button.edit.major[title="Edit"], button.fav.major[title="Favorite"], button.notify.major[title="Notify"], button.rss.major[title="RSS"] {
+  outline: none;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0;
+  border-color: #797979 #393939 #393939 #797979;
+  background-color: #535353;
+}
+
+input.major[type="button"]:enabled:active, input.major[type="submit"]:enabled:active, input.major[type="reset"]:enabled:active {
+  border-color: #1f1f1f #393939 #393939 #1f1f1f;
+}
+
+input.major[type="button"]:disabled, input.major[type="submit"]:disabled, input.major[type="reset"]:disabled {
+  background-color: #000000;
+}
+
+iframe {
+  border: 0;
+}
+
+#loading {
+  background-image: url("/mortebouse.github.io/mspfa/tfteotu/casmus-loading.gif");
+}
+
+.um {
+  opacity: 0.5;
+  transition: opacity 0.1s ease-out;
+}
+
+.um:hover {
+  opacity: 1;
+}
+
+#um4 {
+ opacity: 0.5;
+ transition: opacity 0.1s ease-out;
+}
+
+#um4:hover {
+  opacity: 1;
+}
+
+form#dialog {
+  background-color: #393939;
+  border-color: #1f1f1f;
+}
+
+form#dialog .major{
+  background-color: #1f1f1f;
+  border-color: #535353 #2b2b2b #2b2b2b #535353;
+}
+
+.maroon {
+  color: #a10000;
+}
+
+.brown {
+  color: #a15000;
+}
+
+.yellow {
+  color: #a1a100;
+}
+
+.lime {
+  color: #778a0e;
+}
+
+.olive {
+  color: #416600;
+}
+
+.jade {
+  color: #008141;
+}
+
+.teal {
+  color: #008282;
+}
+
+.cerulean {
+  color: #005682;
+}
+
+.indigo {
+  color: #000056;
+}
+
+.purple {
+  color: #2b0057;
+}
+
+.violet {
+  color: #6a006a;
+}
+
+.fushia {
+  color: #77003c;
+}
+
+.anon {
+  color: #626262;
+}
+
+/* .maroon, .brown, .yellow, .lime, .olive, .jade, .teal, .cerulean, .indigo, .purple, .violet, .fushia, .anon {
+  display: contents;
+} */
+
+.center {
+  text-align: center;
+}
+
+.p1 .a-jerk-log-for-jerks {
+  color: #eeeeee;
+  background-color: #7d6969;
+}
+
+.p2-14 .a-jerk-log-for-jerks {
+  background-color: #e2cdcd;
+}
+
+.p15-51 .a-jerk-log-for-jerks { /*specify range*/
+  background-color: #d5c0e4; /*tweak purple if needed*/
+}
+
+.p2 #command span, .p15 #command span {
+  visibility: hidden;
+  font-size: 0;
+}
+
+.p2 #command span::after, .p15 #command span::after {
+  visibility: visible;
+  font-size: xx-large;
+}
+
+.p2 #command span::after {
+  content: "1,1,1";
+}
+
+.p15 #command span::after {
+  content: "1,2,1";
+}
+
+.footlinks a {
+    visibility: hidden;
+    font-size: 0;
+  }
+
+#prevlinks, #gamelinks {
+      padding-top: 5px;
+      padding-bottom: 7px;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
+  .footlinks a::after {
+    visibility: visible;
+    font-size: 10px;
+    padding-left: 15.5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff1f1f;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color:#393939;
+  }
+
+  .footlinks a:hover::after {
+    background-color: #1f1f1f;
+    border-color: #ff8f8f;
+    transition: background 0.2s ease-out;
+  }
+
+  #startover:hover::after {
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/ejc-symbol-a.png");
+  }
+
+  #startover::after {
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/ejc-symbol.png");
+    content: "Start Over";
+  }
+
+  #goback:hover::after {
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/rew-symbol-a.png");
+  }
+
+  #goback::after {
+    content: "Rewind";
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/rew-symbol.png");
+  }
+
+  #savegame:hover::after {
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/pause-symbol-a.png");
+  }
+
+  #savegame::after {
+    content: "Save Position";
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/pause-symbol.png");
+  }
+
+  #loadgame:hover::after {
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/ffw-symbol-a.png");
+  }
+
+  #loadgame::after {
+    content: "Last Saved Position";
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/ffw-symbol.png");
+  }
+
+  #deletegame:hover::after {
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/stop-symbol-a.png");
+  }
+
+  #deletegame::after {
+    content: "Delete Progress";
+    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/stop-symbol.png");
+  }
