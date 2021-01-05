@@ -9,12 +9,12 @@ to do:
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
 
 header .mspfalogo {
-    background-image: url("/mortis-natus.github.io/mspfa/other/innuendo_mortis.png");
+    background-image: url("https:///mortis-natus.github.io/mspfa/other/innuendo_mortis.png");
     border-color: #19153a;
 }
 
 footer .mspfalogo {
-    background-image: url("/mortis-natus.github.io/mspfa/other/logoedit_mortis.png");
+    background-image: url("https:///mortis-natus.github.io/mspfa/other/logoedit_mortis.png");
     border-color: #19153a;
 }
 
@@ -39,7 +39,7 @@ footer .mspfalogo {
 
 #flashytitle {
   background-color: #19153a;
-  background-image: url("/mortis-natus.github.io/mspfa/other/flashy-title-edit.png");
+  background-image: url("https:///mortis-natus.github.io/mspfa/other/flashy-title-edit.png");
 }
 
 nav {
@@ -55,7 +55,7 @@ nav a[href="http://www.mspaintadventures.com/"], nav a[href="/random/"], nav a[h
 }
 
 div.heart {
-  background-image: url("/mortis-natus.github.io/mspfa/other/mortis-star.png");
+  background-image: url("https:///mortis-natus.github.io/mspfa/other/mortis-star.png");
 }
 
 body {

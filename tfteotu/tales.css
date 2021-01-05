@@ -4,12 +4,12 @@
   }
 
 header .mspfalogo {
-  background-image: url("/mortis-natus.github.io/mspfa/other/tales_squares.png");
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/tales_squares.png");
   border-color: #1f1f1f;
 }
 
 footer .mspfalogo {
-  background-image: url("/mortis-natus.github.io/mspfa/other/tales_goggles.png");
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/tales_goggles.png");
   border-color: #1f1f1f;
 }
 
@@ -27,7 +27,7 @@ nav a:hover {
 }
 
 div.heart {
-  background-image: url("/mortis-natus.github.io/mspfa/tfteotu/rec-symbol.png");
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/rec-symbol.png");
 }
 
 body {
@@ -162,7 +162,7 @@ iframe {
 }
 
 #loading {
-  background-image: url("/mortis-natus.github.io/mspfa/tfteotu/casmus-loading.gif");
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/casmus-loading.gif");
 }
 
 .um {
