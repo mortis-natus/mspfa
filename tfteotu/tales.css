@@ -4,14 +4,12 @@
   }
 
 header .mspfalogo {
-  background-image: none;
-  background-color: transparent;
+  background-image: url("/mortis-natus.github.io/mspfa/other/tales_squares.png");
   border-color: #1f1f1f;
 }
 
 footer .mspfalogo {
-  background-image: none;
-  background-color: transparent;
+  background-image: url("/mortis-natus.github.io/mspfa/other/tales_goggles.png");
   border-color: #1f1f1f;
 }
 
@@ -29,7 +27,7 @@ nav a:hover {
 }
 
 div.heart {
-  background-image: url("/mortebouse.github.io/mspfa/tfteotu/rec-symbol.png");
+  background-image: url("/mortis-natus.github.io/mspfa/tfteotu/rec-symbol.png");
 }
 
 body {
@@ -164,7 +162,7 @@ iframe {
 }
 
 #loading {
-  background-image: url("/mortebouse.github.io/mspfa/tfteotu/casmus-loading.gif");
+  background-image: url("/mortis-natus.github.io/mspfa/tfteotu/casmus-loading.gif");
 }
 
 .um {
@@ -260,6 +258,14 @@ form#dialog .major{
   background-color: #7d6969;
 }
 
+.p1 .nested-jerk {
+    background-color: #393939;
+    border-color: #cccccc;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+}
+
 .p2-14 .a-jerk-log-for-jerks {
   background-color: #e2cdcd;
 }
@@ -298,68 +304,68 @@ form#dialog .major{
       padding-right: 5px;
   }
 
-  .footlinks a::after {
-    visibility: visible;
-    font-size: 10px;
-    padding-left: 15.5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ff1f1f;
-    padding-bottom: 4px;
-    padding-top: 4px;
-    padding-right: 4px;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-color:#393939;
-  }
+.footlinks a::after {
+  visibility: visible;
+  font-size: 10px;
+  padding-left: 15.5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff1f1f;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-right: 4px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color:#393939;
+}
 
-  .footlinks a:hover::after {
-    background-color: #1f1f1f;
-    border-color: #ff8f8f;
-    transition: background 0.2s ease-out;
-  }
+.footlinks a:hover::after {
+  background-color: #1f1f1f;
+  border-color: #ff8f8f;
+  transition: background 0.2s ease-out;
+}
 
-  #startover:hover::after {
-    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/ejc-symbol-a.png");
-  }
+#startover:hover::after {
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/ejc-symbol-a.png");
+}
 
-  #startover::after {
-    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/ejc-symbol.png");
-    content: "Start Over";
-  }
+#startover::after {
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/ejc-symbol.png");
+  content: "Start Over";
+}
 
-  #goback:hover::after {
-    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/rew-symbol-a.png");
-  }
+#goback:hover::after {
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/rew-symbol-a.png");
+}
 
-  #goback::after {
-    content: "Rewind";
-    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/rew-symbol.png");
-  }
+#goback::after {
+  content: "Rewind";
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/rew-symbol.png");
+}
 
-  #savegame:hover::after {
-    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/pause-symbol-a.png");
-  }
+#savegame:hover::after {
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/pause-symbol-a.png");
+}
 
-  #savegame::after {
-    content: "Save Position";
-    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/pause-symbol.png");
-  }
+#savegame::after {
+  content: "Save Position";
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/pause-symbol.png");
+}
 
-  #loadgame:hover::after {
-    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/ffw-symbol-a.png");
-  }
+#loadgame:hover::after {
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/ffw-symbol-a.png");
+}
 
-  #loadgame::after {
-    content: "Last Saved Position";
-    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/ffw-symbol.png");
-  }
+#loadgame::after {
+  content: "Last Saved Position";
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/ffw-symbol.png");
+}
 
-  #deletegame:hover::after {
-    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/stop-symbol-a.png");
-  }
+#deletegame:hover::after {
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/stop-symbol-a.png");
+}
 
-  #deletegame::after {
-    content: "Delete Progress";
-    background-image: url("https://mortebouse.github.io/mspfa/tfteotu/stop-symbol.png");
-  }
+#deletegame::after {
+  content: "Delete Progress";
+  background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/stop-symbol.png");
+}

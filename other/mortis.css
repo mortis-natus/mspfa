@@ -9,11 +9,13 @@ to do:
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
 
 header .mspfalogo {
-    background-image: url("/mortebouse.github.io/mspfa/other/notw1.png");
+    background-image: url("/mortis-natus.github.io/mspfa/other/innuendo_mortis.png");
+    border-color: #19153a;
 }
 
 footer .mspfalogo {
-    background-image: url("/mortebouse.github.io/mspfa/other/notw2.png");
+    background-image: url("/mortis-natus.github.io/mspfa/other/logoedit_mortis.png");
+    border-color: #19153a;
 }
 
 .um {
@@ -35,15 +37,9 @@ footer .mspfalogo {
   opacity: 1;
 }
 
-.cellicon[title="Sgrub Upsilon"] {
-    width: 0px;
-    height: 0px;
-    visibility: hidden;
-}
-
 #flashytitle {
   background-color: #19153a;
-  background-image: url("/mortebouse.github.io/mspfa/other/flashy-title-edit.png");
+  background-image: url("/mortis-natus.github.io/mspfa/other/flashy-title-edit.png");
 }
 
 nav {
@@ -59,7 +55,7 @@ nav a[href="http://www.mspaintadventures.com/"], nav a[href="/random/"], nav a[h
 }
 
 div.heart {
-  background-image: url("/mortebouse.github.io/mspfa/other/mortis-star.png");
+  background-image: url("/mortis-natus.github.io/mspfa/other/mortis-star.png");
 }
 
 body {
@@ -139,6 +135,25 @@ div#details a {
   color: #2c977f;
 }
 
-#notification,::selection {
+#notification {
   background-color: #3b8686;
+}
+
+::selection {
+  background-color: #77ffc6;
+  color: #77ffc6;
+}
+
+form#dialog {
+  background-color: #252056;
+  border-color: #19153a;
+}
+
+form#dialog .major{
+  background-color: #19153a;
+  border-color: #605ebf #252056 #252056 #605ebf;
+}
+
+#loading {
+  filter: brightness(0.75) saturate(0) contrast(1) grayscale(0%) sepia(100%) hue-rotate(90deg);
 }
