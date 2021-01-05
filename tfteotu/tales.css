@@ -6,11 +6,13 @@
 header .mspfalogo {
   background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/tales_squares.png");
   border-color: #1f1f1f;
+  background-color: transparent;
 }
 
 footer .mspfalogo {
   background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/tales_goggles.png");
   border-color: #1f1f1f;
+  background-color: transparent;
 }
 
 nav {

@@ -9,13 +9,15 @@ to do:
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
 
 header .mspfalogo {
-    background-image: url("https:///mortis-natus.github.io/mspfa/other/innuendo_mortis.png");
+    background-image: url("https:///mortis-natus.github.io/mspfa/other/logoedit_mortis.png");
     border-color: #19153a;
+    background-color: transparent;
 }
 
 footer .mspfalogo {
-    background-image: url("https:///mortis-natus.github.io/mspfa/other/logoedit_mortis.png");
+    background-image: url("https:///mortis-natus.github.io/mspfa/other/innuendo_mortis.png");
     border-color: #19153a;
+    background-color: transparent;
 }
 
 .um {
