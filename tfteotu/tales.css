@@ -371,3 +371,31 @@ form#dialog .major{
   content: "Delete Progress";
   background-image: url("https://mortis-natus.github.io/mspfa/tfteotu/stop-symbol.png");
 }
+
+#log tbody {
+  background-color:#242424;
+}
+
+#log tbody > tr > td, table.container > tbody > tr > th {
+  border: 2px dashed #0a0a0a !important;
+}
+
+#log h4 .major {
+  color: #ca0101;
+  text-shadow: 0 2px #840000;
+}
+
+#log h3.major {
+  color: #ff8f8f;
+  text-shadow: 0 2px #ab4343;
+}
+
+table#log.container {
+  border: 2px dashed #0a0a0a;
+  background-color: #393939;
+}
+
+#flashytitle {
+  background-image: url("https:///mortis-natus.github.io/mspfa/other/tales_flashytitle.png");
+  background-color:#393939;
+}
