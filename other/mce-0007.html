@@ -1,0 +1,53 @@
+<!-- p5.js script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.15/p5.js" type="text/javascript"></script>
+<!-- animation code starts here -->
+<script language="javascript" type="text/javascript">
+      var x = 250;
+      var y = 185;
+      var w = 150;
+      var h = 80;
+
+//249, 168, 37 = darker yellow
+//255, 241, 118 = lighter yellow
+
+function setup() {
+   createCanvas(650, 450);
+   background(249, 168, 37);
+   stroke(249, 168, 37);
+   textAlign(CENTER);
+   textFont('Courier');
+   textStyle(BOLD);
+}
+
+function draw() {
+   background(249, 168, 37);
+   textSize(32);
+   fill(255, 241, 118);
+   text("hey, click the box", width/2, 30);
+   rect(x, y, w, h);
+    if(mouseIsPressed) {
+     if(mouseX > x && mouseX < x + w && mouseY > y && mouseY < y + h) {
+       background(255, 241, 118);
+       fill(249, 168, 37);
+       textSize(32);
+       rect(x, y, w, h);
+       textAlign(CENTER);
+       text("hehehehe", width/2, 60);
+     } else {
+       background(249, 168, 37);
+       fill(255, 241, 118);
+       textSize(32);
+       rect(x, y, w, h);
+       text("hey, click the box", width/2, 30);
+     }
+     }
+}
+
+</script>
+<!-- removes any default padding and style  -->
+<style>
+  body {
+    padding: 0;
+    margin: 0;
+  }
+</style>
