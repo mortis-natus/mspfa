@@ -413,34 +413,34 @@ transition: opacity 0.1s ease-out;
 
 .p18 #goback::after {
     content: "Rewind"; /*rew symbol*/
-    background-image: url("https://mortis-natus.github.io/mspfa//rew-symbol.png");
+    background-image: url("https://mortis-natus.github.io/mspfa/other/rew-symbol.png");
   }
 
 .p18 #savegame:hover::after {
-    background-image: url("https://mortis-natus.github.io/mspfa//pause-symbol-a.png");
+    background-image: url("https://mortis-natus.github.io/mspfa/other/pause-symbol-a.png");
   }
 
 .p18 #savegame::after {
     content: "Save Position"; /*pause symbol*/
-    background-image: url("https://mortis-natus.github.io/mspfa//pause-symbol.png");
+    background-image: url("https://mortis-natus.github.io/mspfa/other/pause-symbol.png");
   }
 
 .p18 #loadgame:hover::after {
-    background-image: url("https://mortis-natus.github.io/mspfa//ffw-symbol-a.png");
+    background-image: url("https://mortis-natus.github.io/mspfa/other/ffw-symbol-a.png");
   }
 
 .p18 #loadgame::after {
     content: "Last Saved Position"; /*"resume"?, "Unpause"? play symbol */
-    background-image: url("https://mortis-natus.github.io/mspfa//ffw-symbol.png");
+    background-image: url("https://mortis-natus.github.io/mspfa/other/ffw-symbol.png");
   }
 
 .p18 #deletegame:hover::after {
-    background-image: url("https://mortis-natus.github.io/mspfa//stop-symbol-a.png");
+    background-image: url("https://mortis-natus.github.io/mspfa/other/stop-symbol-a.png");
   }
 
 .p18 #deletegame::after {
     content: "Delete Progress"; /* x symbol */
-    background-image: url("https://mortis-natus.github.io/mspfa//stop-symbol.png");
+    background-image: url("https://mortis-natus.github.io/mspfa/other/stop-symbol.png");
   }
 
 
